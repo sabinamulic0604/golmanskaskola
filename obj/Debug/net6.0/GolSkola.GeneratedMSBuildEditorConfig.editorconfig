@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GolSkola
+build_property.RootNamespace = GolSkola
+build_property.ProjectDir = E:\Nova fascikla\Nova fascikla\GolSkola\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Nova fascikla\Nova fascikla\GolSkola
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Galerijas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpamFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Galerijas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpamFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Galerijas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpamFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Galerijas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpamFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Galerijas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpamFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Golmani/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29sbWFuaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Golmani/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29sbWFuaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Golmani/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29sbWFuaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Golmani/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29sbWFuaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Golmani/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29sbWFuaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Pocetna/Detalji.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9jZXRuYVxEZXRhbGppLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Pocetna/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9jZXRuYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Pocetna/Vijesti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9jZXRuYVxWaWplc3RpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Vijestis/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlqZXN0aXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Vijestis/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlqZXN0aXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Vijestis/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlqZXN0aXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Vijestis/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlqZXN0aXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/Vijestis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlqZXN0aXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Nova fascikla/Nova fascikla/GolSkola/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

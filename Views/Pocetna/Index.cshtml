@@ -1,0 +1,704 @@
+﻿@using System.Linq;
+@model dynamic
+@{
+    Layout = null;
+    ViewData["Title"] = "Home Page";
+
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>GOGI 1937</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: TheEvent - v4.10.0
+    * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center ">
+        <div class="container-fluid container-xxl d-flex align-items-center">
+
+            <div id="logo" class="me-auto" style="width:200px;">
+                <!-- Uncomment below if you prefer to use a text logo -->
+                <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
+                <a href="#" class="scrollto"><img src="assets/img/logo1.png" alt="" title=""><b>GOGI 1937</b></a>
+            </div>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Početna</a></li>
+                    <li><a class="nav-link scrollto" href="#about">O nama</a></li>
+                    
+            
+                    <li class="dropdown"><a href="#"><span>Naš tim</span> <i class="bi bi-chevron-down"></i></a>
+                      <ul>
+                        <li><a href="#buy-tickets">Trener</a></li>
+              
+                        <li><a href="#speakers">Članovi</a></li>
+                        <li><a href="#faq">Upoznajte nas</a></li>
+                        <li><a href="#venue">Lokacija</a></li>
+                      </ul>
+                    </li> 
+                     <li><a class="nav-link scrollto" href="#subscribe">Vijesti</a></li>
+                     <li><a class="nav-link scrollto" href="#gallery">Galerija</a></li>
+                    <li><a class="nav-link scrollto" href="#supporters">Sponzori</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Kontakt</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+            <a class="buy-tickets scrollto" asp-area="Identity" asp-page="/Account/Login">PRIJAVA</a>
+
+        </div>
+    </header><!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+            <h1 class="mb-4 pb-0">GOLMANSKA ŠKOLA NOGOMETA<br><span>GOGI 1937</span></h1>
+            <p class="mb-4 pb-0">Prva registrirana golmanska škola u Unsko-sanskom kantonu</p>
+            <a href="~/assets/img/video.mp4" class="glightbox play-btn mb-4">
+
+            </a>
+            <a href="#about" class="about-btn scrollto">Pozitivna sportska priča<a>
+        </div>
+    </section><!-- End Hero Section -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2>O nama</h2>
+                        <p style="text-align:justify;">
+                            Golmanska škola nogometa "Gogi 1937" prva je registrovana škola nogometa za golmane na Unsko-sanskom kantonu. Pružamo svojim polaznicima profesionalne usluge treniranja za golmansku poziciju i pišemo pozitivnu sportsku priču u gradu na Uni. Postani dio tima!
+                        </p>
+                        <div class="row-lg-3">
+                        <h3>Treninzi se ovisno o godišnjem dobu odvijaju na </h3>
+
+                            <p>
+                                <a href=""><i class="bi bi-geo-alt-fill"></i></a> <b>STADION NK "SLOGA 1937" </b> - Naselje Kralje, Bihać
+                                    <br /><a href=""><i class="bi bi-geo-alt-fill"></i></a> <b> HSC ARENA</b> - Kompleks Kombiteks, Bihać
+
+                        </p> 
+
+                    </div>
+                    <div class="row-lg-3">
+                        <a href=""><i style="font-size:30px; margin-right:10px;" class="bi bi-phone"></i></a>
+                         <a href=""><i style="font-size:30px; margin-right:10px;" class="bi bi-envelope"></i></a>
+                         <a href=""><i style="font-size:30px; margin-right:10px;" class="bi bi-facebook"></i></a>
+                        <a style="font-size:30px;" href="">      <i class="bi bi-instagram"></i></a>
+
+                    </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Naš tim</h2>
+                        <img src="~/assets/img/tim.jpg" style="width:480px; height:300px; border-radius:10px;"/>
+                    </div>
+                  <!--  -->
+
+                </div>
+            </div>
+        </section><!-- End About Section -->
+        <!-- ======= Trener Section ======= -->
+         <!-- ======= Buy Ticket Section ======= -->
+        <section id="buy-tickets" class="section-with-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2><hr />GORAN PIRALIĆ</h2>
+                    <p>Trener kojeg odlikuju posvećenost i profesionalnost!</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted text-uppercase text-center">Biografija<hr /></h5>
+                                <p style="font-size:12px; text-align:justify;">
+                                    Prvi nogometne korake načinio je 1998. godine u NK "Jedinstvo" na poziciji golmana u pionirskom uzrastu.
+
+                                    Zbog prelaska trenera Senada Hodžića u mali, ali historijski bogat klub FK "Prekounje", postajem član istog, kao i mnogi moji vršnjaci.
+                                    Također, zauvijek ću ostati zahvalan tadašnjem trenutnom treneru Ismetu Saračeviću - Mimetu.
+                                    U FK "Prekounje" sam igrao u svim uzrastima - od pionira preko kadeta do juniora. Branio sam za sve selekcije reprezentacije USK, te sam proglašen najboljim golmanom na pionirskom prvenstvu 2002. godine.
+                                    2003. godine se vraćam u NK "Jedinstvo" u skipunu juniora koja je tada bila pod vodstvom pokojnog Jure Bašića - Papeca, koji prepoznaje moj kvalitet i već nakon samo nekoliko mjeseci
+                                    me poziva u seniorski tim NK "Jedinstvo", gdje sam igrao nekoliko godina. Također, pola godine sam branio za NK "Bratstvo".
+                                    Svoju profesionalnu karijeru golmana prekidam zbog stalnog zaposljenja u državnoj firmi BH Pošta, gdje sam i dana
+                                </p><hr />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+
+
+                         <img src="~/assets/img/trener.jpg" style="height:355px; width:100%; border-radius:10px;"/>
+                                <hr>
+                                <div class="text-center">
+                                    <button 
+                                        style="border-radius:20px; background-color: #F82249; color:white; font-weight:bold;" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="pro-access">
+                                        SLOBODNO ME KONTAKTIRAJTE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pro Tier -->
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted text-uppercase text-center">Ideja</h5>
+
+                                <hr>
+                                <p style="font-size:12px; text-align:justify;">
+                                    Stara želja i ideja, koja je došla na realizaciju prije skoro godinu dana, bila je da pokrenem prvu golmansku školu na USK-a, koja je ujedno i registrovana isključivo iz razloga što su
+                                    golmani jako bitna karika svakog kluba, a na našem kantonu su maksimalno zapostavljeni. Manjak trenerskog kadra za golmanske pozicije, pogotovo kod omladinskih kategorija, gdje je najbitnije prvi korak napraviti ispravno.
+                                    Smatram da svojim znanjem i iskustvom, zalaganjem i velikom željom, naravno uz pomoć mojih kolega, bivših trenera
+                                    i sportskih radnika, mogu prenijeti na djecu dodatno znanje, motiv i želju - pogotovo radnu etiku i kulturu. U skorijoj budućnosti plan mi je završiti golmanski certifikat i licencu B.
+                                    Napredovati kako lično, tako i profesionalno zajedno sa svim polaznicima koji su dio ove pozitivne sportske priče, i ko zna, možda sutra budemo pomogli 
+                                    tome da imamo jednog Krajišnika na vratnicama najvećih nogometnih klubova.
+                                    </p>
+                                <hr>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Modal Order Form -->
+            <div id="buy-ticket-modal" class="modal fade">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Kontaktirajte trenera</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form method="POST" action="#">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="your-name" placeholder="Ime">
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="your-email" placeholder="E - mail ili broj mobitela">
+                                </div>
+                                <div class="form-group mt-3">
+                                    <select id="ticket-type" name="ticket-type" class="form-select">
+                                        <option value="pro-access">-- Sfera interesovanja --</option>
+                                        <option value="standard-access">Upis novih članova</option>
+                                        <option value="">Sponzorstvo</option>
+                                        <option value="premium-access">Natjecanje</option>
+                                    </select>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button type="submit" class="btn">POŠALJI</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+        </section><!-- End Buy Ticket Section -->
+
+       
+
+        <!-- ======= Speakers Section ======= -->
+        <section id="speakers">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h2 style="color:white;">Naši Članovi</h2>
+                    <p>Upoznajte članove nogometne golmanske škole "GOGI 1937"</p>
+                </div>
+
+                <div class="row">
+                          @foreach (Golmani golmani in Model.Golmani)
+                        {
+                    <div class="col-lg-3 col-md-6">
+                       
+
+                            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+
+                                <img class="img-fluid" style="height:400px; width:530px;" src="@golmani.Slika" alt="Speaker 1">
+                                <div class="details">
+                                        <h3><a href="speaker-details.html">@golmani.Name</a></h3>
+                                    <b style="color:white;">@golmani.Godiste .</b>
+                                    <div class="social">
+                                      <a href=""><b><i class="bi bi-circle-fill"></i> @golmani.Klub <i class="bi bi-circle-fill"></i></b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>}
+                    </div>
+            </div>
+
+        </section><!-- End Speakers Section -->
+        <!-- =======  F.A.Q Section ======= -->
+        <section id="faq">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>UPOZNAJTE GOLMANSKU ŠKOLU "GOGI 1937"</h2>
+                </div>
+
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-9">
+
+                        <ol class="faq-list">
+
+                            <li>
+                                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">
+                                Koje grupe imamo?
+                                <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Radimo u dvije grupe:<br />
+
+                                        <br />Mlađa grupa od 2012,2013,2014,2015,2016 godište.<br />Starija grupa od 2006,2007,2008,2009,2010,2011 godište.
+
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">
+                                    Kakvo je stanje s opremom i rekvizitima?
+                                    <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Uz svakodnevno unapređivanje i tehničko opremanje naše škole, posjedujemo sve potrebne i adekvatne rekvizite za kvalitetan golmanski trening i rad na visokom nivou.
+                                   </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">
+Kojom motivacijom i ciljem se vodimo?
+<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Laički rečeno - cilj svakog golmana je da ne primi gol na utakmici, zato ima ona fraza koja sigurno vrijedi : ''Golman je pola ekipe.''
+                                        Volja za pobjedom je važna, ali volja za pripremom je vitalna.
+
+                                   </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">
+                                    Kako vršimo monotoring napretka naših polaznika?
+                                    <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Koliko posvećujemo monitoring (praćenje) naših polaznika golmana na sportskom putu, također maksimalnu pažnju pridajemo njihovom socijalno društvenom napredovanju.
+                                        </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">
+                                    Kako provodimo korekciju greške?
+                                    <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Pod korekcijom smatramo ispraviti greške napravljene u prošlom radu , namjerne ili nenamjerne. Tim bitnim sitnicama, sa našim polaznicima posvećujemo veliki značaj.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">
+                                    Kakav je pristup u procesu pripreme i obuka? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Bili amater, početnik ili profesionalac.. Početni korak je najbitniji. Zato zajedno kroz psihološku i fizičku pripremu pristupamo obuci naših polaznika da dostignemo njihov maksimum prilikom svakog treninga.
+                                    </p>
+                                </div>
+                            </li>
+                             <li>
+                                <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">
+                                    Gdje održavamo treninge? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                                <div id="faq7" class="collapse" data-bs-parent=".faq-list">
+                                    <p>
+                                        Zavisno od godišnjih doba, u periodu koji nam dozvoljava treninge na otvorenom, trening kamp nam se nalazi u naselju Kralje (Bihać), na stadionu NK ''Sloga 1937''.
+A kišoviti i zimski period, smo locirani u HSC Areni (kompleks nekadašnjeg Kombiteksa Bihać).
+
+                                    </p>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- End  F.A.Q Section -->
+        
+        <section id="venue">
+
+            <div class="container-fluid" data-aos="fade-up">
+
+                
+                <div class="row g-0">
+                    <div class="col-lg-6 venue-map">
+                       <iframe frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="col-lg-6 venue-info2" >
+                        <div class="row justify-content-center">
+                            <div class="col-11 col-lg-8 position-relative">
+                                <h3>HSC ARENA</h3>
+                                <p>
+                                   Kompleks Kombiteks, Bihać
+                                </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row g-0">
+
+
+                    <div class="col-lg-6 venue-info">
+                        <div class="row justify-content-center">
+                            <div class="col-11 col-lg-8 position-relative">
+                                <h3>STADION NK "SLOGA 1937"</h3>
+                                <p>Naselje Kralje, Bihać</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 venue-map2">
+
+                     <iframe frameborder="0" style="border:0" allowfullscreen></iframe>
+                   </div>
+
+                    
+                </div>
+
+            </div></section>
+
+
+
+       
+        <section id="subscribe">
+            <div class="container" data-aos="zoom-in">
+                <div class="section-header">
+                    <h2>VIJESTI</h2>
+                    <p>Pogledajte najnovije obavijesti.</p>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+                    @foreach (Vijesti vijesti in Model.Vijesti) 
+                    {
+
+                        <div class="col-lg-4 col-md-6" >
+                            <a asp-action="Detalji" asp-route-id="@vijesti.Id">
+                                <div class="hotel" style="background-color:white;">
+                                    <div class="hotel-img" style="height:200px;">
+                                        <img src="@vijesti.Baner" class="img-fluid">
+                                    </div>
+                                    <h3><a asp-action="Detalji" asp-route-id="@vijesti.Id">@vijesti.Naslov</a></h3>
+                                    <div class="stars" style="background-color:white;">
+                                        <i style="color:#f82249;" class="bi bi-calendar-fill"></i>  <span style="font-size:10px;">@vijesti.CreatedAt.ToShortDateString()</span>
+                                    </div>
+                                    <a asp-action="Detalji" asp-route-id="@vijesti.Id">   <p style="text-transform:none; color:black">Pročitaj više >>></p></a>
+                                </div>
+                            </a>
+
+                        </div>
+                    }
+
+
+
+                </div>
+           <a  asp-area="" asp-controller="Pocetna" asp-action="Vijesti">
+    <button class="ms-2">Pogledajte sve obavijesti</button></a>
+
+            </div>
+               
+
+        </section><!-- End Subscribe Section -->
+        <!-- ======= Gallery Section ======= -->
+        <section id="gallery">
+
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h2>Galerija</h2>
+                    <p>Bacite oko na trenutke koje smo ovjekovječili fotografijom.</p>
+                </div>
+            </div>
+
+            <div class="gallery-slider swiper">
+
+                <div class="swiper-wrapper align-items-center">
+                   @foreach(Galerija galerija in Model.Galerija){
+
+                    <div class="swiper-slide"><a href="@galerija.Fajl" class="gallery-lightbox"><img src="@galerija.Fajl" style="height:200px; height:200px;" class="img-fluid" alt=""></a></div>
+                   } </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section><!-- End Gallery Section -->
+
+        <!-- ======= Supporters Section ======= -->
+        <section id="supporters" class="section-with-bg" style="background-image:url(~/assets/img/goalkeeper.mp4);">
+            
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h2>Sponzori</h2>
+                </div>
+
+                <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="supporter-logo">
+                            <img src="assets/img/supporters/1.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="supporter-logo">
+                            <img src="assets/img/supporters/2.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="supporter-logo">
+                            <img src="assets/img/supporters/3.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="supporter-logo">
+                            <img src="assets/img/supporters/4.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="supporter-logo">
+                            <img src="assets/img/supporters/5.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="supporter-logo">
+                            <img src="assets/img/supporters/6.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="supporter-logo">
+                            <img src="assets/img/supporters/7.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="supporter-logo">
+                            <img src="assets/img/supporters/8.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- End Sponsors Section -->
+        <!-- ======= Venue Section ======= -->
+        
+
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="section-bg">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>Kontaktirajte nas</h2>
+                    <p>Odgovorit ćemo u što kraćem roku.</p>
+                </div>
+
+                <div class="row contact-info">
+
+                    <div class="col-md-4">
+                        <div class="contact-address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h3>Adresa</h3>
+                          <b>  <address>Bihać, Bosna i Hercegovina</address></b>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="contact-phone">
+                            <i class="bi bi-phone"></i>
+                            <h3>Broj mobitela</h3>
+                            <b> <p><a style="color:#0e1b4d;" href="tel:+38765360400">+387 (0)65-360-400</a></p></b>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="contact-email">
+                            <i class="bi bi-envelope"></i>
+                            <h3>E-mail</h3>
+                           <b> <p><a style="color:#0e1b4d;" href="mailto:piralic_goran@hotmail.com">piralic_goran@hotmail.com</a>
+                                </p>
+                            </b>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Vaše ime" required>
+                            </div>
+                            <div class="form-group col-md-6 mt-3 mt-md-0">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Vaš E-mail" required>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Predmet/Naslov" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Poruka.." required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Vaša poruka je poslana. Hvala!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Pošalji poruku</button></div>
+                    </form>
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-info">
+                        <img style="width:200px; height:150px;" src="assets/img/logo1.png" alt="TheEvenet">
+                        <p>
+                            </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Brzi linkovi</h4>
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#hero">Početna</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#about">O nama</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#subscribe">Vijesti</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#gallery">Galerija</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#supporters">Sponzori</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Naš tim</h4>
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#buy-tickets">Trener</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#speakers">Članovi</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#faq">Upoznajte nas</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#venue">Lokacija</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#contact">Kontakt</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Kontaktirajte nas</h4>
+                        <p>
+                            Bihać, 77000 <br>
+                            Unsko - sanski kanton<br>
+                            Bosna i Hercegovina <br>
+                            <strong>Telefon:</strong> +387 (0)65-360-400<br>
+                            <strong>E-mail:</strong> piralic_goran@hotmail.com<br>
+                        </p>
+
+                        <div class="social-links">
+                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="google-plus"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong>Geosoft - studio</strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+                -->
+                Designed by <a href="">Sabina Mulić</a>
+            </div>
+        </div>
+    </footer><!-- End  Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

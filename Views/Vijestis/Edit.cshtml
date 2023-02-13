@@ -1,0 +1,63 @@
+﻿@model GolSkola.Models.Vijesti
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Vijesti</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Naslov" class="control-label"></label>
+                <input asp-for="Naslov" class="form-control" />
+                <span asp-validation-for="Naslov" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Podnaslov" class="control-label"></label>
+                <input asp-for="Podnaslov" class="form-control" />
+                <span asp-validation-for="Podnaslov" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tekst" class="control-label"></label>
+                <input asp-for="Tekst" class="form-control" />
+                <span asp-validation-for="Tekst" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Okvir" class="control-label"></label>
+                <input asp-for="Okvir" class="form-control" />
+                <span asp-validation-for="Okvir" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vidljivost" class="control-label"></label>
+                <select asp-for="Vidljivost" class="form-control">
+                    <option value="0">Da li želite objaviti igrača na websajtu?</option>
+                    <option value="1"> DA </option>
+                    <option value="2"> NE </option>
+                </select>
+                <span asp-validation-for="Vidljivost" class="text-danger" asp-value=""></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedAt" class="control-label"></label>
+                <input asp-for="CreatedAt" class="form-control" />
+                <span asp-validation-for="CreatedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,54 @@
+﻿@model GolSkola.Models.Golmani
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Golmani</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Godiste)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Godiste)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Klub)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Klub)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Slika)
+        </dt>
+        <dd class = "col-sm-10">
+            <a href="~/@Model.Slika"><img src="~/@Model.Slika" width="100px" height="100px"></a>
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Vidljivost)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Vidljivost)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
